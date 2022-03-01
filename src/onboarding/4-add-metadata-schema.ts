@@ -43,23 +43,19 @@ const component = '[IMX-ADD-COLLECTION-METADATA-SCHEMA]';
   const params: AddMetadataSchemaToCollectionParams = {
     metadata: [
       {
-        name: 'description',
+        name: 'Name',
         type: MetadataTypes.Text,
       },
       {
-        name: 'image',
+        name: 'Description',
         type: MetadataTypes.Text,
       },
       {
-        name: 'name',
+        name: 'Image',
         type: MetadataTypes.Text,
       },
       {
-        name: 'rarity',
-        type: MetadataTypes.Text,
-      },
-      {
-        name: 'type',
+        name: 'Image_url',
         type: MetadataTypes.Text,
       },
     ],

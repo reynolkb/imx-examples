@@ -29,7 +29,7 @@ const component = '[IMX-CREATE-PROJECT]';
    * Edit your values here
    */
   const params: CreateProjectParams = {
-    name: 'Supernovas Immutable X Test Project',
+    name: 'Supernovas Immutable X Ropsten Project',
     company_name: 'Supernovas',
     contact_email: 'kyle@supernovas.com',
   };

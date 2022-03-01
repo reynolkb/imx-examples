@@ -35,12 +35,12 @@ const component = '[IMX-CREATE-COLLECTION]';
    * Edit your values here
    */
   const params: CreateCollectionParams = {
-    name: 'BitBirds Test 2',
-    description: 'This is a test collection for Supernovas',
+    name: 'Supernovas Ropsten',
+    description: 'This is a test collection for Supernovas on Ropsten',
     contract_address: collectionContractAddress,
     owner_public_key: ownerPublicKey,
     // icon_url: '',
-    metadata_api_url: 'https://bitbirds.herokuapp.com/metadata/',
+    metadata_api_url: 'https://supernovas.app/api/v0/imx/metadata/',
     // collection_image_url: '',
     project_id: parseInt(projectId, 10),
   };
